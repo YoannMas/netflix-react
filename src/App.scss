@@ -1,0 +1,39 @@
+/* GLOBAL RULES */
+
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* HEADER */
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* CONTENT */
+
+.content {
+  margin-left: 40px;
+}
+
+.content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin: 20px 0 40px 0;
+}
+
+.movies {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}

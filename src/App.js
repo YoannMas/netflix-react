@@ -1,9 +1,12 @@
-import "./App.css";
+import "./App.scss";
+import Header from "./Header";
+import Content from "./Content";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="App">
+      <Header />
+      <Content />
     </div>
   );
 }
