@@ -35,3 +35,8 @@
   overflow: hidden;
   overflow-x: scroll;
 }
+
+.movies img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
